@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #7FBCD2;
+  font-size: 5.625rem;
+  font-style: normal;
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #7FBCD2;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #7FBCD2;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  color: grey;
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width: 3px;
+  height: 10px;
+  width: 4%;
+  margin: 100px auto;
+  clear: both;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #7FBCD2;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E4F9F5
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 200px;
+}
+
+.cloud-top {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: 50px;
+  right: 25%;
+}
+
+.cloud-middle {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  left: 30%;
+  bottom: 400px;
+}
+
+.mountain {
+}
+
+.middle-container {
+  margin: 100px 0px;
+}
+
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  clear: both;
+}
+
+.bottom-container {
+  background-color: #E4F9F5;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #E4F9F5
+}
+
+
+/* When absolute positioning is used, the object which uses absolute format will
+no longer be a part of its parents natural flow
+*/
+
+/*
+use rem instead of em for font-size
+*/
+
+/*
+DON'T USE FLOAT
+*/

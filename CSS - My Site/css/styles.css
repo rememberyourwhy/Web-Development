@@ -8,23 +8,38 @@ h1 {
 
 .top-container {
   background-color: #E4F9F5;
-  padding: 20px;
   height: 200px;
   width: 200px;
-  border: solid 10px;
-  margin: 0px 0px 10px 0px;
+  position: absolute;
+  left: 0px;
 }
 
 .middle-container {
-  background-color: red;
-  margin: 0px;
+  background-color: blue;
   height: 200px;
   width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
 }
 
 .bottom-container {
-  background-color: blue;
-  margin: 0px;
+  background-color: red;
   height: 200px;
   width: 200px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
 }
+
+.task-bar{
+  background-color: powderblue;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+/* When absolute positioning is used, the object which uses absolute format will
+no longer be a part of its parents natural flow
+*/
